@@ -1,0 +1,43 @@
+.containerCourses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #353535;
+}
+
+.title {
+  margin: 0px;
+  font-family: Oswald;
+  font-size: 50px;
+  color: #fff;
+}
+
+.courses li {
+  font-family: Oswald;
+  text-decoration: underline;
+  list-style: decimal;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.buttonAddCourse {
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 23px;
+  font-family: Oswald;
+  color: #1e1e1e;
+  background-color: aqua;
+}
+
+.inputCourse {
+  margin: 20px;
+  height: 40px;
+  width: 350px;
+  font-family: Oswald;
+  font-size: 30px;
+}
